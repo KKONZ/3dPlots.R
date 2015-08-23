@@ -11,6 +11,7 @@ plot3d(wt, disp, mpg, col="red", size=3, data=mtcars)
 # University of California Irving Machine Learning datasets:
 # download here: http://archive.ics.uci.edu/ml/machine-learning-databases/00320/
 setwd("< where ever you save the data >")
+# From Machine learning repo UCI
 std <- read.csv("student-mat.csv", header=TRUE, sep=";")
 
 attach(std)
